@@ -5,8 +5,6 @@ g(r,z) = ⟨r|(z − h)⁻¹|r⟩, sampled at M complex energies on a circle. A 
 1/(1+u^M). With local windows the method scales linearly; in 3D the window construction is divide-and-conquer DFT with
 this occupation function.
 
-The manuscript, Supplemental Material and cover letter are in `manuscript/`. See `manuscript/SUBMISSION_CHECKLIST.md`.
-
 ## Main results (all reproducible from `results/*.json`)
 
 **Formulation**
@@ -70,9 +68,6 @@ windows converge toward KS as `--rw` grows (H12 chain: 4.8e-3, 1.5e-4, 9.5e-5 Ha
 | `tests/` | 25 automated tests |
 | `benchmarks/` | accuracy, scaling, 3D, referee checks (R1–R13), large SCF, KS solver comparison |
 | `results/` | all data (JSON) and logs |
-| `manuscript/` | `main.tex`, `supplement.tex`, `cover_letter.tex`, figure and table generators |
-| `THEORY.md` | earlier working notes (superseded by the manuscript) |
-| `superseded_ofdft/` | first attempt (orbital-free kinetic kernel), abandoned |
 
 ## Reproduce
 
@@ -83,6 +78,4 @@ python3 benchmarks/accuracy.py && python3 benchmarks/scaling.py && python3 bench
 python3 benchmarks/three_d.py ABC
 python3 benchmarks/referee_checks.py R1 R2 R3 R4 R5 R6 R7 R8 R9 R10 R11 R12 R13 R14 R15 R16 R17 R18
 python3 benchmarks/scf3d_large.py && python3 benchmarks/ks_drivers.py
-python3 manuscript/make_figures.py && python3 manuscript/make_tables.py
-cd manuscript && latexmk -pdf main.tex supplement.tex cover_letter.tex
 ```

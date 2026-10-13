@@ -9,3 +9,6 @@ manuscript/*.fdb_latexmk
 manuscript/*.blg
 manuscript/*Notes.bib
 manuscript/build*.log
+manuscript/
+THEORY.md
+superseded_ofdft/
