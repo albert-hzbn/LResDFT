@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "LResDFT: code, tests, benchmarks and data for local-resolvent density-functional theory"
+version: 1.0.0
+date-released: 2026-10-13
+license: MIT
+authors:
+  - family-names: Linda
+    given-names: Albert
+    affiliation: "Indian Institute of Technology Kanpur"
+repository-code: "https://github.com/albert-hzbn/LResDFT"
