@@ -2,14 +2,14 @@
 
 Items the author must complete or verify before submission:
 
-1. **Acknowledgments, funding, repository URL**: placeholders in `main.tex`
-   (`[colleagues]`, `[Funding.]`, `[repository URL]`). Suggested referees go in `cover_letter.tex`.
+1. **Repository URL**: replace `REPO\_URL` in `main.tex` and `cover_letter.tex` once the GitHub repository exists. Add
+   acknowledgments/funding and suggested referees if wanted (both were removed as placeholders).
 2. **References.** Entries were entered from memory, except the author's own papers, which were checked online.
    Verify every entry in `refs.bib` (authors, volume, page, year). The least certain are:
    - `Moussa2016`: J. Chem. Phys. volume and page (paper exists, 2016; volume/article not confirmed);
    - `Zeller2008`: article number (not found);
    - (verified Oct 2026: `ELSI2018`, `ZellerDeutz1982`, `Goedecker1993`, `SakuraiSugiura2003`, `AustinTrefethen2015`, `Linda2026Acta`);
-   - `Kumar2026JCIM`: lookup rate-limited, still unchecked;
+   - (also verified via Crossref: `Moussa2016` 145, 164108; `Zeller2008` 20, 294215; `Kumar2026JCIM` 66, 7113);
    - `ZellerDeutz1982`, `Goedecker1993`, `SakuraiSugiura2003`, `AustinTrefethen2015`: added in revision, from memory;
 3. **Literature positioning (searched Oct 2026).** The half-step trapezoid filter 1/(1+u^M) is the Butterworth filter of
    Güttel et al. (arXiv:1407.8078, Sec. 3.2); the manuscript now says so and claims only its use as a KS occupation function.
