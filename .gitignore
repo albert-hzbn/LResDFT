@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+*.so
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.out
+manuscript/*.fls
+manuscript/*.fdb_latexmk
+manuscript/*.blg
+manuscript/*Notes.bib
+manuscript/build*.log

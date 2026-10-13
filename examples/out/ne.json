@@ -1,0 +1,59 @@
+{
+  "system": "examples/ne.xyz",
+  "charge": 0,
+  "atoms": [
+    [
+      "Ne",
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "grid": 40,
+  "dx": 0.3,
+  "results": {
+    "ks": {
+      "solver": "ks",
+      "energy_Ha": -25.391608923716376,
+      "energy_electronic_Ha": -17.88249640066585,
+      "E_ion_ion_Ha": -7.509112523050526,
+      "E_hartree_Ha": 15.032961560985502,
+      "E_xc_Ha": -4.270664097324117,
+      "iterations": 11,
+      "converged": true,
+      "time_s": 0.47328318800009583,
+      "n_basis": 13,
+      "homo_Ha": -0.10945194600325008,
+      "lumo_Ha": 0.23561636039174438,
+      "gap_Ha": 0.3450683063949945,
+      "dipole_au": [
+        -4.263256414560601e-13,
+        -4.192202140984591e-13,
+        -4.192202140984591e-13
+      ]
+    },
+    "lres": {
+      "solver": "lres",
+      "energy_Ha": -25.391582053843496,
+      "energy_electronic_Ha": -17.88246953079297,
+      "E_ion_ion_Ha": -7.509112523050526,
+      "E_hartree_Ha": 15.032899936175204,
+      "E_xc_Ha": -4.270652470718175,
+      "iterations": 11,
+      "converged": true,
+      "time_s": 0.53521869899987,
+      "n_basis": 13,
+      "chemical_potential_Ha": 0.0575352683651312,
+      "dipole_au": [
+        -6.833606391865032e-08,
+        -6.833607102407768e-08,
+        -6.833605681322297e-08
+      ]
+    },
+    "comparison": {
+      "dE_Ha": 2.6869872879586865e-05,
+      "dE_per_electron_Ha": 3.358734109948358e-06,
+      "density_diff_per_electron": 8.353800746054507e-06
+    }
+  }
+}

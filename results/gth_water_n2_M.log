@@ -1,0 +1,7 @@
+24 atoms, 64 electrons, N_b=320, grid 60^3, dx=0.333, basis 7s
+{'E': np.float64(-123.71312333941725), 'wall': 24.368244803999914, 'it': 21, 'conv': True, 'gap': 0.16585402355595694}
+{'M': 64, 'dE_per_e': np.float64(1.1600060507710452e-06), 'it': 21, 'conv': True}
+{'M': 128, 'dE_per_e': np.float64(3.8309755368004517e-10), 'it': 21, 'conv': True}
+{'M': 256, 'dE_per_e': np.float64(8.881784197001252e-16), 'it': 21, 'conv': True}
+{'M': 512, 'dE_per_e': np.float64(2.4424906541753444e-14), 'it': 21, 'conv': True}
+{'M': 1024, 'dE_per_e': np.float64(4.440892098500626e-16), 'it': 21, 'conv': True}

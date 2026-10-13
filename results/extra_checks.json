@@ -1,0 +1,63 @@
+{
+ "grid_refinement": [
+  {
+   "dx": 0.2,
+   "N_g": 134,
+   "spectral_width": 50.31200167429301,
+   "gap": 0.2324739851194425,
+   "occupied_width": 0.13537364595261892,
+   "M_needed": 36,
+   "cheb_degree_needed": 1792
+  },
+  {
+   "dx": 0.1,
+   "N_g": 267,
+   "spectral_width": 200.30664889218525,
+   "gap": 0.23280660580403975,
+   "occupied_width": 0.13553449143488244,
+   "M_needed": 36,
+   "cheb_degree_needed": 3648
+  },
+  {
+   "dx": 0.05,
+   "N_g": 533,
+   "spectral_width": 800.3038725639838,
+   "gap": 0.2329099969050457,
+   "occupied_width": 0.13557527432323419,
+   "M_needed": 36,
+   "cheb_degree_needed": 6144
+  },
+  {
+   "dx": 0.025,
+   "N_g": 1065,
+   "spectral_width": 3200.302459531444,
+   "gap": 0.23294600872964155,
+   "occupied_width": 0.13558575668354006,
+   "M_needed": 36,
+   "cheb_degree_needed": 12288
+  }
+ ],
+ "forces": [
+  {
+   "M": 8,
+   "N_electrons": 2.1577162827516196,
+   "F_finite_difference": 0.027928958587608577,
+   "F_hellmann_feynman": 0.027928915740908833,
+   "abs_diff": 4.284669974374822e-08
+  },
+  {
+   "M": 16,
+   "N_electrons": 2.0127231446358955,
+   "F_finite_difference": -0.0009739172242007044,
+   "F_hellmann_feynman": -0.000973962453091004,
+   "abs_diff": 4.5228890299675584e-08
+  },
+  {
+   "M": 64,
+   "N_electrons": 2.0000001947548642,
+   "F_finite_difference": -0.00651438597287779,
+   "F_hellmann_feynman": -0.006514429386410392,
+   "abs_diff": 4.341353260217673e-08
+  }
+ ]
+}

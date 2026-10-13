@@ -1,0 +1,622 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{52}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Hohenberg}\ and\ \citenamefont
+  {Kohn}(1964)}]{HK1964}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Hohenberg}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Kohn}},\ }\bibfield  {title} {\bibinfo {title} {Inhomogeneous electron
+  gas},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev.}\ }\textbf {\bibinfo {volume} {136}},\ \bibinfo {pages} {B864} (\bibinfo
+  {year} {1964})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kohn}\ and\ \citenamefont {Sham}(1965)}]{KS1965}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Kohn}}\ and\ \bibinfo {author} {\bibfnamefont {L.~J.}\ \bibnamefont
+  {Sham}},\ }\bibfield  {title} {\bibinfo {title} {Self-consistent equations
+  including exchange and correlation effects},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume}
+  {140}},\ \bibinfo {pages} {A1133} (\bibinfo {year} {1965})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Linda}\ \emph {et~al.}(2024)\citenamefont {Linda},
+  \citenamefont {Akhtar}, \citenamefont {Pathak},\ and\ \citenamefont
+  {Bhowmick}}]{Linda2024PRB}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Linda}}, \bibinfo {author} {\bibfnamefont {M.~F.}\ \bibnamefont {Akhtar}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Pathak}},\ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Bhowmick}},\ }\bibfield  {title}
+  {\bibinfo {title} {Accelerating the prediction of stacking fault energy by
+  combining ab initio calculations and machine learning},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {109}},\ \bibinfo {pages} {214102} (\bibinfo {year}
+  {2024})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Linda}\ \emph {et~al.}(2026)\citenamefont {Linda},
+  \citenamefont {Mukherjee},\ and\ \citenamefont {Bhowmick}}]{Linda2026Acta}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Linda}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Mukherjee}},\
+  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Bhowmick}},\
+  }\bibfield  {title} {\bibinfo {title} {Multiscale modeling of abnormal grain
+  growth: Role of solute segregation and grain boundary character},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Acta Mater.}\
+  }\textbf {\bibinfo {volume} {306}},\ \bibinfo {pages} {121861} (\bibinfo
+  {year} {2026})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kumar}\ \emph {et~al.}(2026)\citenamefont {Kumar},
+  \citenamefont {Linda}, \citenamefont {Maurya},\ and\ \citenamefont
+  {Bhowmick}}]{Kumar2026JCIM}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~S.}\ \bibnamefont
+  {Kumar}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Linda}},
+  \bibinfo {author} {\bibfnamefont {S.~K.}\ \bibnamefont {Maurya}},\ and\
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Bhowmick}},\ }\bibfield
+  {title} {\bibinfo {title} {Physics aware representation learning on
+  electronic charge density for materials property prediction},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Chem. Inf. Model.}\ }\textbf
+  {\bibinfo {volume} {66}},\ \bibinfo {pages} {7113} (\bibinfo {year}
+  {2026})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ and\ \citenamefont
+  {Teter}(1992)}]{WangTeter1992}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.-W.}\ \bibnamefont
+  {Wang}}\ and\ \bibinfo {author} {\bibfnamefont {M.~P.}\ \bibnamefont
+  {Teter}},\ }\bibfield  {title} {\bibinfo {title} {Kinetic-energy functional
+  of the electron density},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {45}},\ \bibinfo
+  {pages} {13196} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(1999)\citenamefont {Wang},
+  \citenamefont {Govind},\ and\ \citenamefont {Carter}}]{WGC1999}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.~A.}\ \bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Govind}},\ and\
+  \bibinfo {author} {\bibfnamefont {E.~A.}\ \bibnamefont {Carter}},\ }\bibfield
+   {title} {\bibinfo {title} {Orbital-free kinetic-energy density functionals
+  with a density-dependent kernel},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {60}},\
+  \bibinfo {pages} {16350} (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Huang}\ and\ \citenamefont
+  {Carter}(2010)}]{HuangCarter2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Huang}}\ and\ \bibinfo {author} {\bibfnamefont {E.~A.}\ \bibnamefont
+  {Carter}},\ }\bibfield  {title} {\bibinfo {title} {Nonlocal orbital-free
+  kinetic energy density functional for semiconductors},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {81}},\ \bibinfo {pages} {045206} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kohn}(1996)}]{Kohn1996}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Kohn}},\ }\bibfield  {title} {\bibinfo {title} {Density functional and
+  density matrix method scaling linearly with the number of atoms},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\
+  }\textbf {\bibinfo {volume} {76}},\ \bibinfo {pages} {3168} (\bibinfo {year}
+  {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Prodan}\ and\ \citenamefont
+  {Kohn}(2005)}]{ProdanKohn2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Prodan}}\ and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Kohn}},\
+  }\bibfield  {title} {\bibinfo {title} {Nearsightedness of electronic
+  matter},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Proc.
+  Natl. Acad. Sci. USA}\ }\textbf {\bibinfo {volume} {102}},\ \bibinfo {pages}
+  {11635} (\bibinfo {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Goedecker}(1999)}]{Goedecker1999}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Goedecker}},\ }\bibfield  {title} {\bibinfo {title} {Linear scaling
+  electronic structure methods},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume} {71}},\
+  \bibinfo {pages} {1085} (\bibinfo {year} {1999})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bowler}\ and\ \citenamefont
+  {Miyazaki}(2012)}]{BowlerMiyazaki2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~R.}\ \bibnamefont
+  {Bowler}}\ and\ \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Miyazaki}},\ }\bibfield  {title} {\bibinfo {title} {{$\mathcal{O}(N)$}
+  methods in electronic structure calculations},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Rep. Prog. Phys.}\ }\textbf {\bibinfo
+  {volume} {75}},\ \bibinfo {pages} {036503} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yang}(1991)}]{Yang1991}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Yang}},\ }\bibfield  {title} {\bibinfo {title} {Direct calculation of
+  electron density in density-functional theory},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {66}},\ \bibinfo {pages} {1438} (\bibinfo {year}
+  {1991})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2008)\citenamefont {Wang},
+  \citenamefont {Zhao},\ and\ \citenamefont {Meza}}]{LS3DF2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.-W.}\ \bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Zhao}},\ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Meza}},\ }\bibfield
+  {title} {\bibinfo {title} {Linear-scaling three-dimensional fragment method
+  for large-scale electronic structure calculations},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {77}},\ \bibinfo {pages} {165113} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(1993)\citenamefont {Li},
+  \citenamefont {Nunes},\ and\ \citenamefont {Vanderbilt}}]{LNV1993}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.-P.}\ \bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont {Nunes}},\ and\
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Vanderbilt}},\ }\bibfield
+   {title} {\bibinfo {title} {Density-matrix electronic-structure method with
+  linear system-size scaling},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {47}},\ \bibinfo
+  {pages} {10891} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Skylaris}\ \emph {et~al.}(2005)\citenamefont
+  {Skylaris}, \citenamefont {Haynes}, \citenamefont {Mostofi},\ and\
+  \citenamefont {Payne}}]{ONETEP2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.-K.}\ \bibnamefont
+  {Skylaris}}, \bibinfo {author} {\bibfnamefont {P.~D.}\ \bibnamefont
+  {Haynes}}, \bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Mostofi}},\ and\ \bibinfo {author} {\bibfnamefont {M.~C.}\ \bibnamefont
+  {Payne}},\ }\bibfield  {title} {\bibinfo {title} {Introducing {ONETEP}:
+  Linear-scaling density functional simulations on parallel computers},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J. Chem. Phys.}\
+  }\textbf {\bibinfo {volume} {122}},\ \bibinfo {pages} {084119} (\bibinfo
+  {year} {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mauri}\ \emph {et~al.}(1993)\citenamefont {Mauri},
+  \citenamefont {Galli},\ and\ \citenamefont {Car}}]{MGC1993}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Mauri}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Galli}},\ and\
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Car}},\ }\bibfield
+  {title} {\bibinfo {title} {Orbital formulation for electronic-structure
+  calculations with linear system-size scaling},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {47}},\ \bibinfo {pages} {9973} (\bibinfo {year} {1993})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Mohr}\ \emph {et~al.}(2014)\citenamefont {Mohr},
+  \citenamefont {Ratcliff}, \citenamefont {Boulanger}, \citenamefont
+  {Genovese}, \citenamefont {Caliste}, \citenamefont {Deutsch},\ and\
+  \citenamefont {Goedecker}}]{BigDFTLS2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Mohr}}, \bibinfo {author} {\bibfnamefont {L.~E.}\ \bibnamefont {Ratcliff}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Boulanger}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Genovese}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Caliste}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Deutsch}},\ and\ \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Goedecker}},\ }\bibfield  {title} {\bibinfo {title}
+  {Daubechies wavelets for linear scaling density functional theory},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J. Chem. Phys.}\
+  }\textbf {\bibinfo {volume} {140}},\ \bibinfo {pages} {204110} (\bibinfo
+  {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wei{\ss}e}\ \emph {et~al.}(2006)\citenamefont
+  {Wei{\ss}e}, \citenamefont {Wellein}, \citenamefont {Alvermann},\ and\
+  \citenamefont {Fehske}}]{WeisseKPM2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Wei{\ss}e}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Wellein}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Alvermann}},\ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Fehske}},\ }\bibfield
+  {title} {\bibinfo {title} {The kernel polynomial method},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Rev. Mod. Phys.}\ }\textbf
+  {\bibinfo {volume} {78}},\ \bibinfo {pages} {275} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ozaki}(2006)}]{Ozaki2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Ozaki}},\ }\bibfield  {title} {\bibinfo {title} {{O(N)} {Krylov}-subspace
+  method for large-scale ab initio electronic structure calculations},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\
+  }\textbf {\bibinfo {volume} {74}},\ \bibinfo {pages} {245101} (\bibinfo
+  {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Haydock}\ \emph {et~al.}(1972)\citenamefont
+  {Haydock}, \citenamefont {Heine},\ and\ \citenamefont {Kelly}}]{Haydock1972}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Haydock}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Heine}},\
+  and\ \bibinfo {author} {\bibfnamefont {M.~J.}\ \bibnamefont {Kelly}},\
+  }\bibfield  {title} {\bibinfo {title} {Electronic structure based on the
+  local atomic environment for tight-binding bands},\ }\href@noop {} {\bibfield
+   {journal} {\bibinfo  {journal} {J. Phys. C: Solid State Phys.}\ }\textbf
+  {\bibinfo {volume} {5}},\ \bibinfo {pages} {2845} (\bibinfo {year}
+  {1972})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Baer}\ \emph {et~al.}(2013)\citenamefont {Baer},
+  \citenamefont {Neuhauser},\ and\ \citenamefont {Rabani}}]{BaerSDFT2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Baer}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Neuhauser}},\
+  and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Rabani}},\
+  }\bibfield  {title} {\bibinfo {title} {Self-averaging stochastic {Kohn-Sham}
+  density-functional theory},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo
+  {pages} {106402} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zeller}\ \emph {et~al.}(1982)\citenamefont {Zeller},
+  \citenamefont {Deutz},\ and\ \citenamefont {Dederichs}}]{ZellerDeutz1982}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Zeller}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Deutz}},\ and\
+  \bibinfo {author} {\bibfnamefont {P.~H.}\ \bibnamefont {Dederichs}},\
+  }\bibfield  {title} {\bibinfo {title} {Application of complex energy
+  integration to selfconsistent electronic structure calculations},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Solid State
+  Commun.}\ }\textbf {\bibinfo {volume} {44}},\ \bibinfo {pages} {993}
+  (\bibinfo {year} {1982})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(1995)\citenamefont {Wang},
+  \citenamefont {Stocks}, \citenamefont {Shelton}, \citenamefont {Nicholson},
+  \citenamefont {Szotek},\ and\ \citenamefont {Temmerman}}]{LSMS1995}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {G.~M.}\ \bibnamefont {Stocks}},
+  \bibinfo {author} {\bibfnamefont {W.~A.}\ \bibnamefont {Shelton}}, \bibinfo
+  {author} {\bibfnamefont {D.~M.~C.}\ \bibnamefont {Nicholson}}, \bibinfo
+  {author} {\bibfnamefont {Z.}~\bibnamefont {Szotek}},\ and\ \bibinfo {author}
+  {\bibfnamefont {W.~M.}\ \bibnamefont {Temmerman}},\ }\bibfield  {title}
+  {\bibinfo {title} {Order-{N} multiple scattering approach to electronic
+  structure calculations},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo
+  {pages} {2867} (\bibinfo {year} {1995})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Abrikosov}\ \emph {et~al.}(1996)\citenamefont
+  {Abrikosov}, \citenamefont {Niklasson}, \citenamefont {Simak}, \citenamefont
+  {Johansson}, \citenamefont {Ruban},\ and\ \citenamefont
+  {Skriver}}]{LSGF1996}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.~A.}\ \bibnamefont
+  {Abrikosov}}, \bibinfo {author} {\bibfnamefont {A.~M.~N.}\ \bibnamefont
+  {Niklasson}}, \bibinfo {author} {\bibfnamefont {S.~I.}\ \bibnamefont
+  {Simak}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Johansson}},
+  \bibinfo {author} {\bibfnamefont {A.~V.}\ \bibnamefont {Ruban}},\ and\
+  \bibinfo {author} {\bibfnamefont {H.~L.}\ \bibnamefont {Skriver}},\
+  }\bibfield  {title} {\bibinfo {title} {Order-{N} {Green's} function technique
+  for local environment effects in alloys},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {76}},\ \bibinfo {pages} {4203} (\bibinfo {year}
+  {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zeller}(2008)}]{Zeller2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Zeller}},\ }\bibfield  {title} {\bibinfo {title} {Towards a linear-scaling
+  algorithm for electronic structure calculations with the tight-binding
+  {Korringa-Kohn-Rostoker} {Green} function method},\ }\href@noop {} {\bibfield
+   {journal} {\bibinfo  {journal} {J. Phys.: Condens. Matter}\ }\textbf
+  {\bibinfo {volume} {20}},\ \bibinfo {pages} {294215} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Goedecker}(1993)}]{Goedecker1993}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Goedecker}},\ }\bibfield  {title} {\bibinfo {title} {Integral representation
+  of the {Fermi} distribution and its applications in electronic-structure
+  calculations},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {48}},\ \bibinfo {pages} {17573}
+  (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Baroni}\ and\ \citenamefont
+  {Giannozzi}(1992)}]{BaroniGiannozzi1992}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Baroni}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Giannozzi}},\ }\bibfield  {title} {\bibinfo {title} {Towards very
+  large-scale electronic-structure calculations},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Europhys. Lett.}\ }\textbf {\bibinfo {volume}
+  {17}},\ \bibinfo {pages} {547} (\bibinfo {year} {1992})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Lin}\ \emph {et~al.}(2009{\natexlab{a}})\citenamefont
+  {Lin}, \citenamefont {Lu}, \citenamefont {Ying},\ and\ \citenamefont
+  {E}}]{LinLuYingE2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Lin}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Lu}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Ying}},\ and\ \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {E}},\ }\bibfield  {title} {\bibinfo {title}
+  {Pole-based approximation of the {Fermi-Dirac} function},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Chin. Ann. Math. Ser. B}\
+  }\textbf {\bibinfo {volume} {30}},\ \bibinfo {pages} {729} (\bibinfo {year}
+  {2009}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lin}\ \emph {et~al.}(2009{\natexlab{b}})\citenamefont
+  {Lin}, \citenamefont {Lu}, \citenamefont {Car},\ and\ \citenamefont
+  {E}}]{LinMultipole2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Lin}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Lu}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Car}},\ and\ \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {E}},\ }\bibfield  {title} {\bibinfo {title}
+  {Multipole representation of the {Fermi} operator with application to the
+  electronic structure analysis of metallic systems},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {79}},\ \bibinfo {pages} {115133} (\bibinfo {year}
+  {2009}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Moussa}(2016)}]{Moussa2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont
+  {Moussa}},\ }\bibfield  {title} {\bibinfo {title} {Minimax rational
+  approximation of the {Fermi-Dirac} distribution},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Chem. Phys.}\ }\textbf {\bibinfo {volume}
+  {145}},\ \bibinfo {pages} {164108} (\bibinfo {year} {2016})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Ozaki}(2007)}]{Ozaki2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Ozaki}},\ }\bibfield  {title} {\bibinfo {title} {Continued fraction
+  representation of the {Fermi-Dirac} function for large-scale electronic
+  structure calculations},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {75}},\ \bibinfo
+  {pages} {035123} (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lin}\ \emph {et~al.}(2013)\citenamefont {Lin},
+  \citenamefont {Chen}, \citenamefont {Yang},\ and\ \citenamefont
+  {He}}]{PEXSI2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Lin}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Chen}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Yang}},\ and\ \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {He}},\ }\bibfield  {title} {\bibinfo
+  {title} {Accelerating atomic orbital-based electronic structure calculation
+  via pole expansion and selected inversion},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Phys.: Condens. Matter}\ }\textbf
+  {\bibinfo {volume} {25}},\ \bibinfo {pages} {295501} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sakurai}\ and\ \citenamefont
+  {Sugiura}(2003)}]{SakuraiSugiura2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Sakurai}}\ and\ \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Sugiura}},\ }\bibfield  {title} {\bibinfo {title} {A projection method for
+  generalized eigenvalue problems using numerical integration},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Comput. Appl. Math.}\ }\textbf
+  {\bibinfo {volume} {159}},\ \bibinfo {pages} {119} (\bibinfo {year}
+  {2003})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Polizzi}(2009)}]{Polizzi2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Polizzi}},\ }\bibfield  {title} {\bibinfo {title} {Density-matrix-based
+  algorithm for solving eigenvalue problems},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {79}},\ \bibinfo {pages} {115112} (\bibinfo {year} {2009})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {G{\"u}ttel}\ \emph {et~al.}(2015)\citenamefont
+  {G{\"u}ttel}, \citenamefont {Polizzi}, \citenamefont {Tang},\ and\
+  \citenamefont {Viaud}}]{Guettel2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {G{\"u}ttel}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Polizzi}},
+  \bibinfo {author} {\bibfnamefont {P.~T.~P.}\ \bibnamefont {Tang}},\ and\
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Viaud}},\ }\bibfield
+  {title} {\bibinfo {title} {Zolotarev quadrature rules and load balancing for
+  the {FEAST} eigensolver},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {SIAM J. Sci. Comput.}\ }\textbf {\bibinfo {volume} {37}},\
+  \bibinfo {pages} {A2100} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Austin}\ and\ \citenamefont
+  {Trefethen}(2015)}]{AustinTrefethen2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~P.}\ \bibnamefont
+  {Austin}}\ and\ \bibinfo {author} {\bibfnamefont {L.~N.}\ \bibnamefont
+  {Trefethen}},\ }\bibfield  {title} {\bibinfo {title} {Computing eigenvalues
+  of real symmetric matrices with rational filters in real arithmetic},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {SIAM J. Sci.
+  Comput.}\ }\textbf {\bibinfo {volume} {37}},\ \bibinfo {pages} {A1365}
+  (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{SM()}]{SM}%
+  \BibitemOpen
+  \href@noop {} {}\bibinfo {note} {See Supplemental Material at [URL will be
+  inserted by publisher] for the Kohn--Sham solver comparison, timing
+  repeatability, memory, basis-set and margin studies, window diagnostics, SCF
+  convergence histories, the grid-refinement test against a Chebyshev
+  expansion, and the list of computer-algebra checks and automated
+  tests}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Coleman}(1963)}]{Coleman1963}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Coleman}},\ }\bibfield  {title} {\bibinfo {title} {Structure of fermion
+  density matrices},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume} {35}},\ \bibinfo {pages} {668}
+  (\bibinfo {year} {1963})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mermin}(1965)}]{Mermin1965}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~D.}\ \bibnamefont
+  {Mermin}},\ }\bibfield  {title} {\bibinfo {title} {Thermal properties of the
+  inhomogeneous electron gas},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev.}\ }\textbf {\bibinfo {volume} {137}},\ \bibinfo {pages}
+  {A1441} (\bibinfo {year} {1965})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Meurant}(1992)}]{Meurant1992}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Meurant}},\ }\bibfield  {title} {\bibinfo {title} {A review on the inverse
+  of symmetric tridiagonal and block tridiagonal matrices},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {SIAM J. Matrix Anal. Appl.}\
+  }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages} {707} (\bibinfo {year}
+  {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lake}\ \emph {et~al.}(1997)\citenamefont {Lake},
+  \citenamefont {Klimeck}, \citenamefont {Bowen},\ and\ \citenamefont
+  {Jovanovic}}]{Lake1997}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Lake}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Klimeck}},
+  \bibinfo {author} {\bibfnamefont {R.~C.}\ \bibnamefont {Bowen}},\ and\
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Jovanovic}},\ }\bibfield
+  {title} {\bibinfo {title} {Single and multiband modeling of quantum electron
+  transport through layered semiconductor devices},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Appl. Phys.}\ }\textbf {\bibinfo {volume}
+  {81}},\ \bibinfo {pages} {7845} (\bibinfo {year} {1997})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Combes}\ and\ \citenamefont
+  {Thomas}(1973)}]{CombesThomas1973}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Combes}}\ and\ \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Thomas}},\ }\bibfield  {title} {\bibinfo {title} {Asymptotic behaviour of
+  eigenfunctions for multiparticle {Schr\"odinger} operators},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Commun. Math. Phys.}\ }\textbf
+  {\bibinfo {volume} {34}},\ \bibinfo {pages} {251} (\bibinfo {year}
+  {1973})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Soler}\ \emph {et~al.}(2002)\citenamefont {Soler},
+  \citenamefont {Artacho}, \citenamefont {Gale}, \citenamefont {Garc{\'\i}a},
+  \citenamefont {Junquera}, \citenamefont {Ordej{\'o}n},\ and\ \citenamefont
+  {S{\'a}nchez-Portal}}]{SIESTA2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont
+  {Soler}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Artacho}},
+  \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Gale}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Garc{\'\i}a}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Junquera}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Ordej{\'o}n}},\ and\ \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {S{\'a}nchez-Portal}},\ }\bibfield  {title}
+  {\bibinfo {title} {The {SIESTA} method for ab initio order-{N} materials
+  simulation},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J.
+  Phys.: Condens. Matter}\ }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages}
+  {2745} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Helbig}\ \emph {et~al.}(2011)\citenamefont {Helbig},
+  \citenamefont {Fuks}, \citenamefont {Casula}, \citenamefont {Verstraete},
+  \citenamefont {Marques}, \citenamefont {Tokatly},\ and\ \citenamefont
+  {Rubio}}]{Helbig2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Helbig}}, \bibinfo {author} {\bibfnamefont {J.~I.}\ \bibnamefont {Fuks}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Casula}}, \bibinfo
+  {author} {\bibfnamefont {M.~J.}\ \bibnamefont {Verstraete}}, \bibinfo
+  {author} {\bibfnamefont {M.~A.~L.}\ \bibnamefont {Marques}}, \bibinfo
+  {author} {\bibfnamefont {I.~V.}\ \bibnamefont {Tokatly}},\ and\ \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Rubio}},\ }\bibfield  {title}
+  {\bibinfo {title} {Density functional theory beyond the linear regime:
+  Validating an adiabatic local density approximation},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. A}\ }\textbf {\bibinfo
+  {volume} {83}},\ \bibinfo {pages} {032503} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Perdew}\ and\ \citenamefont {Zunger}(1981)}]{PZ1981}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Perdew}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Zunger}},\ }\bibfield  {title} {\bibinfo {title} {Self-interaction
+  correction to density-functional approximations for many-electron systems},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\
+  }\textbf {\bibinfo {volume} {23}},\ \bibinfo {pages} {5048} (\bibinfo {year}
+  {1981})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Knyazev}(2001)}]{LOBPCG2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~V.}\ \bibnamefont
+  {Knyazev}},\ }\bibfield  {title} {\bibinfo {title} {Toward the optimal
+  preconditioned eigensolver: Locally optimal block preconditioned conjugate
+  gradient method},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {SIAM J. Sci. Comput.}\ }\textbf {\bibinfo {volume} {23}},\ \bibinfo {pages}
+  {517} (\bibinfo {year} {2001})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pulay}(1980)}]{Pulay1980}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Pulay}},\ }\bibfield  {title} {\bibinfo {title} {Convergence acceleration of
+  iterative sequences. the case of {SCF} iteration},\ }\href@noop {} {\bibfield
+   {journal} {\bibinfo  {journal} {Chem. Phys. Lett.}\ }\textbf {\bibinfo
+  {volume} {73}},\ \bibinfo {pages} {393} (\bibinfo {year} {1980})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Nakatsukasa}\ and\ \citenamefont
+  {Freund}(2016)}]{Nakatsukasa2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Nakatsukasa}}\ and\ \bibinfo {author} {\bibfnamefont {R.~W.}\ \bibnamefont
+  {Freund}},\ }\bibfield  {title} {\bibinfo {title} {Computing fundamental
+  matrix decompositions accurately via the matrix sign function in two
+  iterations: The power of {Zolotarev's} functions},\ }\href@noop {} {\bibfield
+   {journal} {\bibinfo  {journal} {SIAM Rev.}\ }\textbf {\bibinfo {volume}
+  {58}},\ \bibinfo {pages} {461} (\bibinfo {year} {2016})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Marek}\ \emph {et~al.}(2014)\citenamefont {Marek},
+  \citenamefont {Blum}, \citenamefont {Johanni}, \citenamefont {Havu},
+  \citenamefont {Lang}, \citenamefont {Auckenthaler}, \citenamefont {Heinecke},
+  \citenamefont {Bungartz},\ and\ \citenamefont {Lederer}}]{ELPA2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Marek}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Blum}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Johanni}}, \bibinfo
+  {author} {\bibfnamefont {V.}~\bibnamefont {Havu}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Lang}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Auckenthaler}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Heinecke}}, \bibinfo {author} {\bibfnamefont {H.-J.}\
+  \bibnamefont {Bungartz}},\ and\ \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Lederer}},\ }\bibfield  {title} {\bibinfo {title} {The
+  {ELPA} library: scalable parallel eigenvalue solutions for electronic
+  structure theory and computational science},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Phys.: Condens. Matter}\ }\textbf
+  {\bibinfo {volume} {26}},\ \bibinfo {pages} {213201} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yu}\ \emph {et~al.}(2018)\citenamefont {Yu},
+  \citenamefont {Corsetti}, \citenamefont {Garc{\'\i}a}, \citenamefont {Huhn},
+  \citenamefont {Jacquelin}, \citenamefont {Jia}, \citenamefont {Lange},
+  \citenamefont {Lin}, \citenamefont {Lu}, \citenamefont {Mi}, \citenamefont
+  {Seifitokaldani}, \citenamefont {V{\'a}zquez-Mayagoitia}, \citenamefont
+  {Yang}, \citenamefont {Yang},\ and\ \citenamefont {Blum}}]{ELSI2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~W.-z.}\
+  \bibnamefont {Yu}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Corsetti}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Garc{\'\i}a}}, \bibinfo {author} {\bibfnamefont {W.~P.}\ \bibnamefont
+  {Huhn}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Jacquelin}},
+  \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Jia}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Lange}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Lin}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Lu}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Mi}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Seifitokaldani}}, \bibinfo
+  {author} {\bibfnamefont {{\'A}.}~\bibnamefont {V{\'a}zquez-Mayagoitia}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Yang}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Yang}},\ and\ \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {Blum}},\ }\bibfield  {title} {\bibinfo
+  {title} {{ELSI}: A unified software interface for {Kohn-Sham} electronic
+  structure solvers},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Comput. Phys. Commun.}\ }\textbf {\bibinfo {volume} {222}},\
+  \bibinfo {pages} {267} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wagner}\ \emph {et~al.}(2012)\citenamefont {Wagner},
+  \citenamefont {Stoudenmire}, \citenamefont {Burke},\ and\ \citenamefont
+  {White}}]{Wagner2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~O.}\ \bibnamefont
+  {Wagner}}, \bibinfo {author} {\bibfnamefont {E.~M.}\ \bibnamefont
+  {Stoudenmire}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Burke}},\
+  and\ \bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont {White}},\
+  }\bibfield  {title} {\bibinfo {title} {Reference electronic structure
+  calculations in one dimension},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Chem. Chem. Phys.}\ }\textbf {\bibinfo {volume}
+  {14}},\ \bibinfo {pages} {8581} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+\end{thebibliography}%

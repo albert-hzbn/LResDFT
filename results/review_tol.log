@@ -1,0 +1,16 @@
+{'n': 4, 'N_e': 128, 'tol': 1e-05, 'R_w': 8.5, 'dE_per_e': np.float64(7.700345603378622e-07), 'it_ks': 9, 'it_lr': 9, 'conv': [True, True]}
+{'n': 4, 'N_e': 128, 'tol': 1e-05, 'R_w': 12.1, 'dE_per_e': np.float64(2.3535078752523475e-07), 'it_ks': 9, 'it_lr': 9, 'conv': [True, True]}
+{'n': 4, 'N_e': 128, 'tol': 1e-06, 'R_w': 8.5, 'dE_per_e': np.float64(7.697956189156585e-07), 'it_ks': 11, 'it_lr': 11, 'conv': [True, True]}
+{'n': 4, 'N_e': 128, 'tol': 1e-06, 'R_w': 12.1, 'dE_per_e': np.float64(2.3551730193860365e-07), 'it_ks': 11, 'it_lr': 11, 'conv': [True, True]}
+{'n': 4, 'N_e': 128, 'tol': 1e-08, 'R_w': 8.5, 'dE_per_e': np.float64(7.698047320148227e-07), 'it_ks': 16, 'it_lr': 16, 'conv': [True, True]}
+{'n': 4, 'N_e': 128, 'tol': 1e-08, 'R_w': 12.1, 'dE_per_e': np.float64(2.355167920686796e-07), 'it_ks': 16, 'it_lr': 16, 'conv': [True, True]}
+{'n': 4, 'N_e': 128, 'tol': 1e-10, 'R_w': 8.5, 'dE_per_e': np.float64(7.698047109760964e-07), 'it_ks': 35, 'it_lr': 120, 'conv': [True, False]}
+{'n': 4, 'N_e': 128, 'tol': 1e-10, 'R_w': 12.1, 'dE_per_e': np.float64(2.355167861289864e-07), 'it_ks': 35, 'it_lr': 120, 'conv': [True, False]}
+{'n': 5, 'N_e': 250, 'tol': 1e-05, 'R_w': 8.5, 'dE_per_e': np.float64(1.9882957959111993e-06), 'it_ks': 9, 'it_lr': 9, 'conv': [True, True]}
+{'n': 5, 'N_e': 250, 'tol': 1e-05, 'R_w': 12.1, 'dE_per_e': np.float64(1.5110738934254186e-07), 'it_ks': 9, 'it_lr': 9, 'conv': [True, True]}
+{'n': 5, 'N_e': 250, 'tol': 1e-06, 'R_w': 8.5, 'dE_per_e': np.float64(1.9881638124843448e-06), 'it_ks': 11, 'it_lr': 11, 'conv': [True, True]}
+{'n': 5, 'N_e': 250, 'tol': 1e-06, 'R_w': 12.1, 'dE_per_e': np.float64(1.5134908528580126e-07), 'it_ks': 11, 'it_lr': 11, 'conv': [True, True]}
+{'n': 5, 'N_e': 250, 'tol': 1e-08, 'R_w': 8.5, 'dE_per_e': np.float64(1.9881677879425296e-06), 'it_ks': 15, 'it_lr': 15, 'conv': [True, True]}
+{'n': 5, 'N_e': 250, 'tol': 1e-08, 'R_w': 12.1, 'dE_per_e': np.float64(1.5134978292508094e-07), 'it_ks': 15, 'it_lr': 15, 'conv': [True, True]}
+{'n': 5, 'N_e': 250, 'tol': 1e-10, 'R_w': 8.5, 'dE_per_e': np.float64(1.9881679552327115e-06), 'it_ks': 34, 'it_lr': 120, 'conv': [True, False]}
+{'n': 5, 'N_e': 250, 'tol': 1e-10, 'R_w': 12.1, 'dE_per_e': np.float64(1.5134974364627852e-07), 'it_ks': 34, 'it_lr': 120, 'conv': [True, False]}

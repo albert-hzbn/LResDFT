@@ -1,0 +1,55 @@
+{
+  "system": "examples/heh_plus.xyz",
+  "charge": 1,
+  "atoms": [
+    [
+      "He",
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      "H",
+      0.0,
+      0.0,
+      0.774
+    ]
+  ],
+  "grid": 46,
+  "dx": 0.3,
+  "results": {
+    "ks": {
+      "solver": "ks",
+      "energy_Ha": -1.9455742630489232,
+      "energy_electronic_Ha": -2.3832451172377294,
+      "E_ion_ion_Ha": 0.43767085418880614,
+      "E_hartree_Ha": 1.133835538812057,
+      "E_xc_Ha": -0.7604590407895269,
+      "iterations": 11,
+      "converged": true,
+      "time_s": 0.36178412199978993,
+      "n_basis": 12,
+      "homo_Ha": -0.7413462384106995,
+      "lumo_Ha": -0.0745630593665271,
+      "gap_Ha": 0.6667831790441724
+    },
+    "lres": {
+      "solver": "lres",
+      "energy_Ha": -1.9455742630489254,
+      "energy_electronic_Ha": -2.3832451172377316,
+      "E_ion_ion_Ha": 0.43767085418880614,
+      "E_hartree_Ha": 1.1338355388102013,
+      "E_xc_Ha": -0.7604590407886004,
+      "iterations": 11,
+      "converged": true,
+      "time_s": 0.3856237800000599,
+      "n_basis": 12,
+      "chemical_potential_Ha": -0.5497465835042243
+    },
+    "comparison": {
+      "dE_Ha": -2.220446049250313e-15,
+      "dE_per_electron_Ha": -1.1102230246251565e-15,
+      "density_diff_per_electron": 3.4271755824100337e-13
+    }
+  }
+}

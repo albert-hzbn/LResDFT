@@ -1,0 +1,12 @@
+R8 {"n": 4, "N_e": 128, "N_b": 768, "which": "lrft", "rss_before_MB": 167.7890625, "peak_MB": 189.01953125, "extra_MB": 21.23046875}
+R8 {"n": 4, "N_e": 128, "N_b": 768, "which": "ks", "rss_before_MB": 164.87890625, "peak_MB": 185.52734375, "extra_MB": 20.6484375}
+R8 {"n": 5, "N_e": 250, "N_b": 1500, "which": "lrft", "rss_before_MB": 251.20703125, "peak_MB": 290.0546875, "extra_MB": 38.84765625}
+R8 {"n": 5, "N_e": 250, "N_b": 1500, "which": "ks", "rss_before_MB": 247.87890625, "peak_MB": 276.15625, "extra_MB": 28.27734375}
+R8 {"n": 6, "N_e": 432, "N_b": 2592, "which": "lrft", "rss_before_MB": 340.625, "peak_MB": 423.1796875, "extra_MB": 82.5546875}
+R8 {"n": 6, "N_e": 432, "N_b": 2592, "which": "ks", "rss_before_MB": 337.671875, "peak_MB": 449.66796875, "extra_MB": 111.99609375}
+R8 {"n": 7, "N_e": 686, "N_b": 4116, "which": "lrft", "rss_before_MB": 494.22265625, "peak_MB": 623.875, "extra_MB": 129.65234375}
+R8 {"n": 7, "N_e": 686, "N_b": 4116, "which": "ks", "rss_before_MB": 491.0625, "peak_MB": 762.14453125, "extra_MB": 271.08203125}
+R8 {"n": 8, "N_e": 1024, "N_b": 6144, "which": "lrft", "rss_before_MB": 665.78125, "peak_MB": 917.234375, "extra_MB": 251.453125}
+R8 {"n": 8, "N_e": 1024, "N_b": 6144, "which": "ks", "rss_before_MB": 580.0625, "peak_MB": 1255.8828125, "extra_MB": 675.8203125}
+R8_memory saved
+R8 done in 190.8 s

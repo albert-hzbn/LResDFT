@@ -1,0 +1,360 @@
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 2 electrons, charge +0
+box 13.60 bohr, grid 68^3 (dx=0.200), rcut 7.0
+basis: 18 functions; backend C++; setup 0.8s
+
+[ks] E = -1.13377351 Ha (-30.8515 eV)  iterations 12  1.9s
+  HOMO -10.251 eV  LUMO 2.227 eV  gap 12.478 eV
+  dipole |mu| = 0.0000 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 2 electrons, charge +0
+box 13.60 bohr, grid 68^3 (dx=0.200), rcut 7.0
+basis: 18 functions; backend C++; setup 0.8s
+
+[ks] E = -1.13556856 Ha (-30.9004 eV)  iterations 12  1.9s
+  HOMO -10.096 eV  LUMO 2.016 eV  gap 12.113 eV
+  dipole |mu| = 0.0000 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 2 electrons, charge +0
+box 13.60 bohr, grid 68^3 (dx=0.200), rcut 7.0
+basis: 18 functions; backend C++; setup 0.8s
+
+[ks] E = -1.13607075 Ha (-30.9141 eV)  iterations 12  1.9s
+  HOMO -9.948 eV  LUMO 1.803 eV  gap 11.751 eV
+  dipole |mu| = 0.0000 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 2 electrons, charge +0
+box 13.60 bohr, grid 68^3 (dx=0.200), rcut 7.0
+basis: 18 functions; backend C++; setup 0.8s
+
+[ks] E = -1.13550119 Ha (-30.8986 eV)  iterations 12  1.9s
+  HOMO -9.805 eV  LUMO 1.588 eV  gap 11.394 eV
+  dipole |mu| = 0.0000 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 2 electrons, charge +0
+box 13.60 bohr, grid 68^3 (dx=0.200), rcut 7.0
+basis: 18 functions; backend C++; setup 0.8s
+
+[ks] E = -1.13403713 Ha (-30.8587 eV)  iterations 12  1.9s
+  HOMO -9.669 eV  LUMO 1.373 eV  gap 11.042 eV
+  dipole |mu| = 0.0000 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 2 electrons, charge +0
+box 13.60 bohr, grid 68^3 (dx=0.200), rcut 7.0
+basis: 18 functions; backend C++; setup 0.8s
+
+[ks] E = -1.13607282 Ha (-30.9141 eV)  iterations 12  1.9s
+  HOMO -9.957 eV  LUMO 1.816 eV  gap 11.773 eV
+  dipole |mu| = 0.0000 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 4 electrons, charge +0
+box 15.20 bohr, grid 76^3 (dx=0.200), rcut 7.0
+basis: 32 functions; backend C++; setup 2.4s
+
+[ks] E = -7.86444795 Ha (-214.0025 eV)  iterations 12  6.0s
+  HOMO -3.729 eV  LUMO -0.027 eV  gap 3.701 eV
+  dipole |mu| = 5.4304 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 4 electrons, charge +0
+box 15.20 bohr, grid 76^3 (dx=0.200), rcut 7.0
+basis: 32 functions; backend C++; setup 2.5s
+
+[ks] E = -7.86465634 Ha (-214.0082 eV)  iterations 12  7.8s
+  HOMO -3.710 eV  LUMO -0.058 eV  gap 3.652 eV
+  dipole |mu| = 5.4812 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 4 electrons, charge +0
+box 15.20 bohr, grid 76^3 (dx=0.200), rcut 7.0
+basis: 32 functions; backend C++; setup 3.2s
+
+[ks] E = -7.86466475 Ha (-214.0084 eV)  iterations 12  7.9s
+  HOMO -3.690 eV  LUMO -0.089 eV  gap 3.602 eV
+  dipole |mu| = 5.5327 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 4 electrons, charge +0
+box 15.20 bohr, grid 76^3 (dx=0.200), rcut 7.0
+basis: 32 functions; backend C++; setup 2.5s
+
+[ks] E = -7.86449759 Ha (-214.0039 eV)  iterations 12  6.8s
+  HOMO -3.670 eV  LUMO -0.120 eV  gap 3.550 eV
+  dipole |mu| = 5.5850 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 4 electrons, charge +0
+box 15.20 bohr, grid 76^3 (dx=0.200), rcut 7.0
+basis: 32 functions; backend C++; setup 2.5s
+
+[ks] E = -7.86415517 Ha (-213.9946 eV)  iterations 12  6.1s
+  HOMO -3.649 eV  LUMO -0.152 eV  gap 3.498 eV
+  dipole |mu| = 5.6379 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 4 electrons, charge +0
+box 15.20 bohr, grid 76^3 (dx=0.200), rcut 7.0
+basis: 32 functions; backend C++; setup 2.6s
+
+[ks] E = -7.86468311 Ha (-214.0089 eV)  iterations 12  6.0s
+  HOMO -3.699 eV  LUMO -0.075 eV  gap 3.624 eV
+  dipole |mu| = 5.5099 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 8 electrons, charge +0
+box 14.00 bohr, grid 70^3 (dx=0.200), rcut 7.0
+basis: 31 functions; backend C++; setup 1.4s
+
+[ks] E = -24.76629469 Ha (-673.9252 eV)  iterations 13  3.5s
+  HOMO -9.540 eV  LUMO 0.999 eV  gap 10.539 eV
+  dipole |mu| = 1.7994 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 8 electrons, charge +0
+box 14.00 bohr, grid 70^3 (dx=0.200), rcut 7.0
+basis: 31 functions; backend C++; setup 1.4s
+
+[ks] E = -24.77281615 Ha (-674.1027 eV)  iterations 15  4.0s
+  HOMO -9.437 eV  LUMO 0.729 eV  gap 10.166 eV
+  dipole |mu| = 1.8557 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 8 electrons, charge +0
+box 14.00 bohr, grid 70^3 (dx=0.200), rcut 7.0
+basis: 31 functions; backend C++; setup 1.4s
+
+[ks] E = -24.77631458 Ha (-674.1979 eV)  iterations 15  4.2s
+  HOMO -9.336 eV  LUMO 0.429 eV  gap 9.765 eV
+  dipole |mu| = 1.9186 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 8 electrons, charge +0
+box 14.00 bohr, grid 70^3 (dx=0.200), rcut 7.0
+basis: 31 functions; backend C++; setup 1.5s
+
+[ks] E = -24.77544848 Ha (-674.1743 eV)  iterations 14  3.8s
+  HOMO -9.256 eV  LUMO 0.122 eV  gap 9.378 eV
+  dipole |mu| = 1.9767 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 8 electrons, charge +0
+box 14.00 bohr, grid 70^3 (dx=0.200), rcut 7.0
+basis: 31 functions; backend C++; setup 1.4s
+
+[ks] E = -24.77075137 Ha (-674.0465 eV)  iterations 15  4.1s
+  HOMO -9.203 eV  LUMO -0.174 eV  gap 9.028 eV
+  dipole |mu| = 2.0220 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 8 electrons, charge +0
+box 14.00 bohr, grid 70^3 (dx=0.200), rcut 7.0
+basis: 31 functions; backend C++; setup 1.4s
+
+[ks] E = -24.77652695 Ha (-674.2036 eV)  iterations 15  4.1s
+  HOMO -9.305 eV  LUMO 0.320 eV  gap 9.624 eV
+  dipole |mu| = 1.9403 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 10 electrons, charge +0
+box 14.00 bohr, grid 70^3 (dx=0.200), rcut 7.0
+basis: 44 functions; backend C++; setup 3.2s
+
+[ks] E = -19.85522846 Ha (-540.2883 eV)  iterations 14  8.8s
+  HOMO -9.985 eV  LUMO -0.852 eV  gap 9.133 eV
+  dipole |mu| = 0.0001 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 10 electrons, charge +0
+box 14.40 bohr, grid 72^3 (dx=0.200), rcut 7.0
+basis: 44 functions; backend C++; setup 3.1s
+
+[ks] E = -19.86539898 Ha (-540.5650 eV)  iterations 13  8.1s
+  HOMO -9.992 eV  LUMO -1.284 eV  gap 8.708 eV
+  dipole |mu| = 0.0000 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 10 electrons, charge +0
+box 14.40 bohr, grid 72^3 (dx=0.200), rcut 7.0
+basis: 44 functions; backend C++; setup 3.2s
+
+[ks] E = -19.86797796 Ha (-540.6352 eV)  iterations 14  9.3s
+  HOMO -9.961 eV  LUMO -1.656 eV  gap 8.305 eV
+  dipole |mu| = 0.0000 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 10 electrons, charge +0
+box 14.40 bohr, grid 72^3 (dx=0.200), rcut 7.0
+basis: 44 functions; backend C++; setup 3.3s
+
+[ks] E = -19.86569061 Ha (-540.5730 eV)  iterations 14  8.8s
+  HOMO -9.930 eV  LUMO -2.007 eV  gap 7.923 eV
+  dipole |mu| = 0.0001 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 10 electrons, charge +0
+box 14.40 bohr, grid 72^3 (dx=0.200), rcut 7.0
+basis: 44 functions; backend C++; setup 3.1s
+
+[ks] E = -19.85953134 Ha (-540.4054 eV)  iterations 15  9.3s
+  HOMO -9.900 eV  LUMO -2.338 eV  gap 7.562 eV
+  dipole |mu| = 0.0001 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 10 electrons, charge +0
+box 14.40 bohr, grid 72^3 (dx=0.200), rcut 7.0
+basis: 44 functions; backend C++; setup 3.1s
+
+[ks] E = -19.86797685 Ha (-540.6352 eV)  iterations 14  8.7s
+  HOMO -9.962 eV  LUMO -1.645 eV  gap 8.316 eV
+  dipole |mu| = 0.0000 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 10 electrons, charge +0
+box 14.40 bohr, grid 72^3 (dx=0.200), rcut 7.0
+basis: 44 functions; backend C++; setup 3.1s
+
+[ks] E = -21.63084963 Ha (-588.6054 eV)  iterations 16  9.7s
+  HOMO -8.427 eV  LUMO -0.996 eV  gap 7.430 eV
+  dipole |mu| = 0.4280 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 10 electrons, charge +0
+box 14.40 bohr, grid 72^3 (dx=0.200), rcut 7.0
+basis: 44 functions; backend C++; setup 3.1s
+
+[ks] E = -21.63823163 Ha (-588.8063 eV)  iterations 16  9.7s
+  HOMO -8.504 eV  LUMO -1.324 eV  gap 7.180 eV
+  dipole |mu| = 0.3342 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 10 electrons, charge +0
+box 14.40 bohr, grid 72^3 (dx=0.200), rcut 7.0
+basis: 44 functions; backend C++; setup 3.1s
+
+[ks] E = -21.64086902 Ha (-588.8780 eV)  iterations 16  9.7s
+  HOMO -8.579 eV  LUMO -1.636 eV  gap 6.944 eV
+  dipole |mu| = 0.2379 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 10 electrons, charge +0
+box 14.40 bohr, grid 72^3 (dx=0.200), rcut 7.0
+basis: 44 functions; backend C++; setup 3.1s
+
+[ks] E = -21.63940995 Ha (-588.8383 eV)  iterations 17  10.3s
+  HOMO -8.651 eV  LUMO -1.932 eV  gap 6.719 eV
+  dipole |mu| = 0.1391 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 10 electrons, charge +0
+box 14.40 bohr, grid 72^3 (dx=0.200), rcut 7.0
+basis: 44 functions; backend C++; setup 3.1s
+
+[ks] E = -21.63449650 Ha (-588.7046 eV)  iterations 16  9.7s
+  HOMO -8.718 eV  LUMO -2.212 eV  gap 6.505 eV
+  dipole |mu| = 0.0383 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system /home/albert/new_ideas/LResDFT/results/_dimer.xyz: 2 atoms, 10 electrons, charge +0
+box 14.40 bohr, grid 72^3 (dx=0.200), rcut 7.0
+basis: 44 functions; backend C++; setup 3.1s
+
+[ks] E = -21.64089835 Ha (-588.8788 eV)  iterations 16  9.7s
+  HOMO -8.588 eV  LUMO -1.672 eV  gap 6.917 eV
+  dipole |mu| = 0.2263 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system H2O: 3 atoms, 8 electrons, charge +0
+box 15.20 bohr, grid 76^3 (dx=0.200), rcut 7.0
+basis: 40 functions; backend C++; setup 2.6s
+
+[ks] E = -17.17224604 Ha (-467.2806 eV)  iterations 14  6.4s
+  HOMO -7.017 eV  LUMO 0.819 eV  gap 7.836 eV
+  dipole |mu| = 2.0242 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system NH3: 4 atoms, 8 electrons, charge +0
+box 15.20 bohr, grid 76^3 (dx=0.200), rcut 7.0
+basis: 49 functions; backend C++; setup 3.8s
+
+[ks] E = -11.69075986 Ha (-318.1218 eV)  iterations 15  9.8s
+  HOMO -5.642 eV  LUMO 2.111 eV  gap 7.753 eV
+  dipole |mu| = 1.5122 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system CH4: 5 atoms, 8 electrons, charge +0
+box 14.40 bohr, grid 72^3 (dx=0.200), rcut 7.0
+basis: 58 functions; backend C++; setup 5.1s
+
+[ks] E = -8.02352370 Ha (-218.3312 eV)  iterations 13  11.0s
+  HOMO -9.030 eV  LUMO 2.862 eV  gap 11.892 eV
+  dipole |mu| = 0.0000 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system He: 1 atoms, 2 electrons, charge +0
+box 12.00 bohr, grid 60^3 (dx=0.200), rcut 7.0
+basis: 9 functions; backend C++; setup 0.2s
+
+[ks] E = -2.83250350 Ha (-77.0763 eV)  iterations 16  0.8s
+  HOMO -15.400 eV  LUMO 5.490 eV  gap 20.889 eV
+  dipole |mu| = 0.0000 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+system Ne: 1 atoms, 8 electrons, charge +0
+box 12.00 bohr, grid 60^3 (dx=0.200), rcut 7.0
+basis: 22 functions; backend C++; setup 0.8s
+
+[ks] E = -34.73392745 Ha (-945.1583 eV)  iterations 13  1.6s
+  HOMO -13.025 eV  LUMO 11.000 eV  gap 24.025 eV
+  dipole |mu| = 0.0000 Debye
+
+note: GTH-PADE pseudopotentials + GTH-TZV2P basis, closed-shell LDA; energies depend on box/grid, compare only at identical settings.
+wrote /home/albert/new_ideas/LResDFT/results/_tmp.json
+{'name': 'H2', 'homo_eV': -9.9567, 'homo_AE': -10.1524, 'dip_D': 0.0, 'dip_AE': 0.0, 'dip_exp': 0.0, 're': 0.7641, 're_AE': 0.7659, 're_exp': 0.741}
+{'name': 'LiH', 'homo_eV': -3.699, 'homo_AE': -4.391, 'dip_D': 5.5099, 'dip_AE': 5.6244, 'dip_exp': 5.88, 're': 1.5905, 're_AE': 1.6037, 're_exp': 1.595}
+{'name': 'HF', 'homo_eV': -9.3049, 'homo_AE': -9.7825, 'dip_D': 1.9403, 'dip_AE': 1.8187, 'dip_exp': 1.82, 're': 0.9431, 're_AE': 0.9324, 're_exp': 0.917}
+{'name': 'N2', 'homo_eV': -9.9618, 'homo_AE': -10.412, 'dip_D': 0.0, 'dip_AE': 0.0, 'dip_exp': 0.0, 're': 1.0943, 're_AE': 1.0952, 're_exp': 1.098}
+{'name': 'CO', 'homo_eV': -8.5882, 'homo_AE': -9.1166, 'dip_D': 0.2263, 'dip_AE': 0.2329, 'dip_exp': 0.11, 're': 1.1307, 're_AE': 1.1272, 're_exp': 1.128}
+{'name': 'H2O', 'homo_eV': -7.0169, 'homo_AE': -7.4036, 'dip_D': 2.0242, 'dip_AE': 1.8531, 'dip_exp': 1.85}
+{'name': 'NH3', 'homo_eV': -5.642, 'homo_AE': -6.0847, 'dip_D': 1.5122, 'dip_AE': 1.3383, 'dip_exp': 1.47}
+{'name': 'CH4', 'homo_eV': -9.0296, 'homo_AE': -9.4685, 'dip_D': 0.0, 'dip_AE': 0.0, 'dip_exp': 0.0}
+{'name': 'He', 'homo_eV': -15.3996, 'homo_AE': -15.5157, 'dip_D': 0.0, 'dip_AE': 0.0, 'dip_exp': None}
+{'name': 'Ne', 'homo_eV': -13.0248, 'homo_AE': -13.5524, 'dip_D': 0.0, 'dip_AE': 0.0, 'dip_exp': None}
