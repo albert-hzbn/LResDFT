@@ -2,7 +2,7 @@
 
 Items the author must complete or verify before submission:
 
-1. **Repository URL**: replace `REPO\_URL` in `main.tex` and `cover_letter.tex` once the GitHub repository exists. Add
+1. **Repository URL**: replace repository URL (https://github.com/albert-hzbn/LResDFT) is filled in `main.tex` and `cover_letter.tex`; consider a Zenodo DOI. Add
    acknowledgments/funding and suggested referees if wanted (both were removed as placeholders).
 2. **References.** Entries were entered from memory, except the author's own papers, which were checked online.
    Verify every entry in `refs.bib` (authors, volume, page, year). The least certain are:
